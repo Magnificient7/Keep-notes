@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(229, 228, 228);
+    /* background-image: url('./aasman.avif'); */
+    /* background-image: url('./blur\ img.jpeg'); */
+    background-image: url(./NEUMORPHIC_CIRCLES_BACKGROUND.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+img{
+  /* height: 600px; */
+}
+.heading{
+    /* background-color: rgb(236, 236, 12); */
+    height: 90px;
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 0;
+    
+}
+#photo{
+    color:#cdd1d4;
+}
+
+h1{
+    text-align:left;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#29b9aa;
+    
+}
+.button {
+    /* Background color */
+    background-color: #29b9aa;
+    margin-left:85%;
+    margin-top: 20px;
+    height: 60px;
+    width: 140px;
+    /* Text color */
+    color: #fff;
+    cursor: pointer;
+    display: inline;
+    font-size: larger;
+    
+    /* Padding */
+    /* padding: 10px 20px; */
+    /* Border */
+    border: none;
+    border-radius: 5px;
+    /* Hover effect */
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+  .textBox{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 90px;
+
+   
+    /* display: inline; */
+
+  }
+  .text{
+    height: 200px;
+    width: 400px;
+    margin-right: 70px;
+    margin-top: 30px;
+    
+  }
+  .textarea{
+    height: 200px;
+    width: 400px;
+    font-size: 20px;
+    border-color: rgb(112, 131, 137);
+    border-radius: 10px;
+    background-color: rgb(78, 83, 87);
+    box-shadow: 4px 4px 10px rgb(127, 121, 121);
+    margin-left: 70px;
+    color: aliceblue;
+    
+    
+    /* display: inline; */
+
+  }
+  .btn1{
+    position: absolute;
+    top: 3%;
+    left: 90%;
+    font-size: 20px;
+        /* Background color */
+        background-color: #32968c;
+      
+        /* Text color */
+        color: #fff;
+      
+        /* Padding */
+        padding: 10px 20px;
+      
+        /* Border */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        /* Hover effect */
+        transition: background-color 0.3s ease;
+      }
+      
+      
+  
+  .btn2{
+    position: absolute;
+    margin-left: 25px;
+    top: 3%;
+    left: 98%;
+    font-size: 20px;
+     /* Background color */
+     background-color: #043353;
+      
+     /* Text color */
+     color: #fff;
+   
+     /* Padding */
+     padding: 10px 20px;
+   
+     /* Border */
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+   
+     /* Hover effect */
+     transition: background-color 0.3s ease;
+  
+  }
+  
